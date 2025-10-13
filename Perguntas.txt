@@ -1,0 +1,19 @@
+1 - O que são operações de “Commit”, “Push” e “Pop” efetuadas num repositório?
+- Commit: Salva as alterações nos arquivos do repositório localmente;
+- Push: Envia os commits locais pra o repositório remoto, tornando as alterações disponiveis;
+- Pop: para apagar algo
+
+
+2 – Quais sáo as vantagens de usar Branchs num repositório git?
+Permitem várias tarefas em simultaneo, pois ao haver diferentes branches cad um poderá trabalhar no seu bug/feature. Além disso, auxiliam a organização do do fluxo de trabalho, tornando
+mais reverter ou descartar mudanças.
+
+3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
+que consistem e como podem ser resolvidos esses conflitos?
+Consiste em mostrar quais são as diferenças com vários indicadores, podendo analizar melhor o código durante a resolução de conflitos.
+
+4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
+diferenças entre eles?
+
+Clone: Cria uma cópia local exata de um repositório existente, mantendo o vínculo com o repositório original (remoto). O usuário pode contribuir diretamente se tiver permissão.
+Fork: Cria uma cópia do repositório na conta do usuário (no servidor, como GitHub), permitindo modificações independentes. É usado principalmente para propor mudanças em projetos nos quais o usuário não tem acesso direto. Depois, pode-se clonar o fork para a máquina local.
