@@ -10,9 +10,9 @@
   margin: 0 auto;
   padding: 0 1rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .logo {
@@ -20,7 +20,7 @@
   font-weight: bold;
   margin: 0;
   letter-spacing: 2px;
-  text-align: center;
+  text-align: left;
 }
 
 .nav {
