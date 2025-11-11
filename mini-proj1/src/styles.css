@@ -1,3 +1,30 @@
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+#main-scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+section.hero,
+section.sobre,
+section.oque-faco,
+section.hobbies,
+section.timeline {
+  min-height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section {
+  margin: 0 auto;
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;

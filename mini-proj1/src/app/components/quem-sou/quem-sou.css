@@ -18,39 +18,48 @@
 
 
 .profile-photo-wrapper {
-  width: 250px;
-  height: 250px;
+  width: 340px;
+  height: 340px;
   border-radius: 50%;
   background: #e6e6e6;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.13);
+  margin: 0 auto;
 }
 
 .profile-photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 
 .hero-text {
   flex: 1;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-text h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 3.5rem;
+  margin-bottom: 1.2rem;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .subtitle {
-  font-size: 1.25rem;
+  font-size: 2rem;
   color: #333;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 
@@ -111,4 +120,20 @@
     width: 180px;
     height: 180px;
   }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
 }
+
+.content {
+  padding-top: 170px;
+  padding-bottom: 130px;
+}
+
+
+
