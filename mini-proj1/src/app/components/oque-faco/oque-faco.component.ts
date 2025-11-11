@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './oque-faco.html',
   styleUrl: './oque-faco.css',
 })
-export class OqueFaco {
+export class OqueFacoComponent {
 
 }
